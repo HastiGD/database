@@ -1,0 +1,684 @@
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+S	#	#	S	$	#	S
+
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+S	#	#	S	$	#	S
+
+>>> type(firstline)
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    type(firstline)
+NameError: name 'firstline' is not defined
+>>> type(f.tsv)
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    type(f.tsv)
+NameError: name 'f' is not defined
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+S	#	#	S	$	#	S
+
+>>> type(firstLine)
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    type(firstLine)
+NameError: name 'firstLine' is not defined
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+S	#	#	S	$	#	S
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+>>> ['S', '#', '#', 'S', '$', '#', 'S']
+['S', '#', '#', 'S', '$', '#', 'S']
+>>> firstLine
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    firstLine
+NameError: name 'firstLine' is not defined
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+['Hello\t123\t456\tWorld\t12.99\t789\tMoon\n']
+['Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n']
+['Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n']
+['Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n']
+['Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n']
+['Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n']
+['Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n']
+['Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n']
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+['Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n', 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n']
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+[['Hello\t123\t456\tWorld\t12.99\t789\tMoon', ''], ['Hello\t123\t456\tWorld\t12.99\t789\tMoon', ''], ['Hello\t123\t456\tWorld\t12.99\t789\tMoon', ''], ['Hello\t123\t456\tWorld\t12.99\t789\tMoon', ''], ['Hello\t123\t456\tWorld\t12.99\t789\tMoon', ''], ['Hello\t123\t456\tWorld\t12.99\t789\tMoon', ''], ['Hello\t123\t456\tWorld\t12.99\t789\tMoon', ''], ['Hello\t123\t456\tWorld\t12.99\t789\tMoon', '']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n']]
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n']]
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n']]
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n']]
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n']]
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n']]
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n']]
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon\n']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 51, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 34, in process_file
+    for i, records in database:
+ValueError: too many values to unpack (expected 2)
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 51, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 34, in process_file
+    for i in firstLIne:
+NameError: name 'firstLIne' is not defined
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 51, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 35, in process_file
+    if firstLine[i] == '#':
+TypeError: list indices must be integers or slices, not str
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+<class 'list'>
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 51, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 35, in process_file
+    if firstLine[item] == '#':
+NameError: name 'item' is not defined
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 51, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 35, in process_file
+    if firstLine[item] == '#':
+NameError: name 'item' is not defined
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 45, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 30, in process_file
+    database = database.replace(record, "DD")
+AttributeError: 'list' object has no attribute 'replace'
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 45, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 30, in process_file
+    record = int(record)
+UnboundLocalError: local variable 'record' referenced before assignment
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+HI
+HI
+HI
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+1
+1
+1
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+1
+1
+4
+1
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+1
+2
+5
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+Index of # is 1
+Index of # is 2
+Index of $ is 4
+Index of # is 5
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+[['Hello', '123', '456', 'World', '12.99', '789', 'Moon'], 'HASTI', 'HASTI', ['Hello', '123', '456', 'World', '12.99', '789', 'Moon'], 'PASTI', 'HASTI', ['Hello', '123', '456', 'World', '12.99', '789', 'Moon'], ['Hello', '123', '456', 'World', '12.99', '789', 'Moon']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 56, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 32, in process_file
+    database_lists(i)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 46, in database_lists
+    database[list_num][index] = "HASTI"
+NameError: name 'database' is not defined
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 56, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 31, in process_file
+    database_lists(i)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 46, in database_lists
+    database[list_num][index] = "HASTI"
+NameError: name 'database' is not defined
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+Index of # is 1
+Index of # is 2
+Index of # is 5
+[1, 2, 5]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+Index of # is 1
+Index of # is 2
+Index of $ is 4
+Index of # is 5
+[1, 2, 5]
+[4]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 70, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 24, in process_file
+    process_lines("#")
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 29, in process_lines
+    for lines in file:
+NameError: name 'file' is not defined
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['S', '#', '#', 'S', '$', '#', 'S']
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 73, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 24, in process_file
+    process_lines("#")
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 27, in process_lines
+    file = open(filename, "r")
+NameError: name 'filename' is not defined
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 28, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 27, in process_file
+    file.readline.strip().split("\t")
+AttributeError: 'builtin_function_or_method' object has no attribute 'strip'
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 28, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 14, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 27, in process_file
+    file.readline.split("\t")
+AttributeError: 'builtin_function_or_method' object has no attribute 'split'
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+Hello	123	456	World	12.99	789	Moon
+
+Hello	123	456	World	12.99	789	Moon
+
+Hello	123	456	World	12.99	789	Moon
+
+Hello	123	456	World	12.99	789	Moon
+
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+Hello
+Hello
+Hello
+Hello
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 40, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 18, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 23, in process_file
+    file = open(filename, "r")
+FileNotFoundError: [Errno 2] No such file or directory: "['Hello', '123', '456', 'World', '12.99', '789', 'Moon']"
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+Hello
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 40, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 18, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 37, in process_file
+    print(file[1])
+TypeError: '_io.TextIOWrapper' object is not subscriptable
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+Hello
+Hello
+Hello
+Hello
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+Hello
+123
+456
+World
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+Hello
+123
+456
+World
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+Hello
+123
+456
+World
+3
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+Hello
+(1, 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n')
+123
+(2, 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n')
+456
+(3, 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n')
+World
+(4, 'Hello\t123\t456\tWorld\t12.99\t789\tMoon\n')
+3
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+Hello
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+Hello
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+Hello
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+Hello
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+Hello
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+H
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 40, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 18, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 36, in process_file
+    print(file[0][0])
+TypeError: '_io.TextIOWrapper' object is not subscriptable
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsc
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 45, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 18, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 23, in process_file
+    file = open(filename, "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'f.tsc'
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+[{'S': 'World', '#': '456'}, {'S': 'World', '#': '456'}, {'S': 'World', '#': '456'}, {'S': 'World', '#': '456'}]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+[['HELLO', 'WORLD'], ['HELLO', 'WORLD'], ['HELLO', 'WORLD'], ['HELLO', 'WORLD']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+[['HELLO', 'HELLO', 'HELLO', 'WORLD'], ['HELLO', 'HELLO', 'HELLO', 'WORLD'], ['HELLO', 'HELLO', 'HELLO', 'WORLD'], ['HELLO', 'HELLO', 'HELLO', 'WORLD']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+[['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+[['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+[['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD']]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+[['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD'], ['HELLO', '123123', '456456', 'WORLD']]
+['S', '#', '#', 'S', '$', '#', 'S']
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+['Hello', '123', '456', 'World', '12.99', '789', 'Moon']
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 59, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 18, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 39, in process_file
+    if firstLine[i] == "S":
+NameError: name 'i' is not defined
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+Traceback (most recent call last):
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 60, in <module>
+    main()
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 18, in main
+    process_file(filename)
+  File "/Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py", line 24, in process_file
+    print(len(file))
+TypeError: object of type '_io.TextIOWrapper' has no len()
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+9
+[]
+[]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+9
+[]
+[]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+9
+[]
+[]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+9
+[]
+[]
+>>> 
+ RESTART: /Users/hastigheibidehnashi/Documents/sp2019/cs5001/cs5001_hw/20190212_hw_5/database/database.py 
+Enter the name of your file
+f.tsv
+9
+[]
+[]
+>>> 
