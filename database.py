@@ -49,8 +49,8 @@ def process_file(filename):
                 converted_line.append(num_field)
             if firstLine[i] == "$":
                 currency_field = current_line[i]
-                dollar(currency_field)
-                converted_line.append(currency_field)
+                float_currency_field = dollar(currency_field)
+                converted_line.append(float_currency_field)
         #adds converted line to database
         database.append(converted_line)
         converted_line = []
@@ -58,15 +58,15 @@ def process_file(filename):
 
 def dollar(value_str):
     try:
-        currency_field = float(value_str)
+        float_value_str = float(value_str)
     except ValueError:
+        if value_str[0] == "$":
+            float_value_str = value_str.replace("$","")
+            float_value_str = float(float_value_str)
         if value_str[0] != "$":
             raise ValueError
-        if value_str[0] == "$":
-            currency_field = value_str.lstrip()
-            currency_field = float(currency_field)
 
-    return currency_field
+    return float_value_str
 
             
    
