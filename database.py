@@ -12,13 +12,21 @@ https://stackoverflow.com/questions/33717804/python-raise-syntaxerror-with-linen
 
       
 def main():
-    filename = input("Enter the name of your file\n")
-    records = process_file(filename)
-    for record in records:
-        for i in record:
-            print(i, type(i))
-    
-    
+    try:
+        
+        filename = input("Enter the name of your file\n")   
+        records = process_file(filename)
+    except FileNotFoundError as error:
+        print("no such file found", error)
+    except ValueError as error:
+        print("incorrect Field Type", error)
+    except SyntaxError as error:
+        print("wrong number of records in line #", error)
+    except EmptyFile 
+    else: 
+        for record in records:
+            for i in record:
+                print(i, type(i))    
     
 def process_file(filename):
     #read header record
@@ -36,7 +44,7 @@ def process_file(filename):
     for line in file:
         current_line = line.strip().split()
         if len(current_line) != len(firstLine):
-            raise SyntaxError("wrong number of records in line #")
+            raise SyntaxError
         num_fields = len(current_line)
         #iterates through each field within the line and processes it according to record
         for i in range(num_fields):
@@ -67,7 +75,18 @@ def dollar(value_str):
             raise ValueError
 
     return float_value_str
-
-            
-   
+  
 main()
+
+"""
+In case you need to create a custom error, borrowed from:
+
+https://stackoverflow.com/questions/1319615/proper-way-to-declare-custom-exceptions-in-modern-python
+
+class EmptyFile(Exception):
+    pass
+
+empty_file = file.read(1)
+    if empty_file == "":
+        raise EmptyFile("the file is empty")
+"""
