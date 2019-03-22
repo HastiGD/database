@@ -3,10 +3,20 @@ CS5001
 Spring 2019
 Hasti Gheibi Dehnashi
 HW 5
+
+Consulted stackoverflow to learn how to count lines in a file, adapted following piece of code:
+
+for i, line in enumerate(file):
+        pass
+    print(i+1)
+
+https://stackoverflow.com/questions/845058/how-to-get-line-count-cheaply-in-python
 '''
 
-import turtle
-turtle.hideturtle()
+#import turtle
+#turtle.hideturtle()
+
+import random
 
 def main():
     ship_body = input("Do you want to draw the body? Y/N\n")
@@ -87,12 +97,37 @@ def write_letter(location, letter):
     turtle.pendown()
     turtle.write(letter, align="center", font=("Arial", 12, "normal"))
 
-#main()
-#draw_ship_body()
-#draw_left_rocket()
-#draw_right_rocket()
-#draw_left_flame()
-#draw_right_flame()
+def count_words_in_list(filename):
+    file = open(filename, "r")
+    for i, line in enumerate(file):
+        pass
+    num_words = i
+    file.close()
+    return num_words
+    #print(num_words)
+
+def choose_word(filename):
+    file = open(filename, "r")
+    count_words_in_list(filename)
+
+    word_index = random.randint(0
+    rand_word_index = random.randint(0, num_words)
+    print(rand_word_index)
+    word = file.readlines()
+    print(word[0])
+    file.close()
+    #return print(rand_word)
+
+choose_word("wordlist.txt")
+
+"""
+main()
+draw_ship_body()
+draw_left_rocket()
+draw_right_rocket()
+draw_left_flame()
+draw_right_flame()
 draw_blanks(8)
 write_letter(65, "N")
 write_letter(85, "O")
+"""
